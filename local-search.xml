@@ -11,6 +11,18 @@
     <content type="html"><![CDATA[<p>安装cnpm命令<br>npm install -g cnpm –registry&#x3D;<a href="https://registry.npmmirror.com/">https://registry.npmmirror.com</a><br>使用阿里定制的cnpm命令行工具代替默认的npm，输入以下代码</p><p>npm install -g cnpm –registry&#x3D;<a href="https://registry.npmmirror.com/">https://registry.npmmirror.com</a><br>最新的配置淘宝镜像的淘宝官方提供的方法</p><p>npm config set registry <a href="https://registry.npmmirror.com/">https://registry.npmmirror.com</a><br>将npm的下载源恢复为默认的官方源，可以使用以下命令：</p><p>npm config set registry <a href="https://registry.npmjs.org/">https://registry.npmjs.org</a><br>使用以下命令来查看当前npm的下载源设置：</p><p>npm config get registry<br>指定按照源install<br>npm install  –registry&#x3D;<a href="https://registry.npmmirror.com/">https://registry.npmmirror.com</a></p>]]></content>
     
     
+    <categories>
+      
+      <category>前端</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>原创</tag>
+      
+    </tags>
     
   </entry>
   
