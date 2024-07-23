@@ -8,7 +8,7 @@
     <link href="/2024/07/11/npm-%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/"/>
     <url>/2024/07/11/npm-%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</url>
     
-    <content type="html"><![CDATA[<p>安装cnpm命令<br>npm install -g cnpm –registry&#x3D;<a href="https://registry.npmmirror.com/">https://registry.npmmirror.com</a><br>使用阿里定制的cnpm命令行工具代替默认的npm，输入以下代码</p><p>npm install -g cnpm –registry&#x3D;<a href="https://registry.npmmirror.com/">https://registry.npmmirror.com</a><br>最新的配置淘宝镜像的淘宝官方提供的方法</p><p>npm config set registry <a href="https://registry.npmmirror.com/">https://registry.npmmirror.com</a><br>将npm的下载源恢复为默认的官方源，可以使用以下命令：</p><p>npm config set registry <a href="https://registry.npmjs.org/">https://registry.npmjs.org</a><br>使用以下命令来查看当前npm的下载源设置：</p><p>npm config get registry<br>指定按照源install<br>npm install  –registry&#x3D;<a href="https://registry.npmmirror.com/">https://registry.npmmirror.com</a></p>]]></content>
+    <content type="html"><![CDATA[<h3 id="安装cnpm命令"><a href="#安装cnpm命令" class="headerlink" title="安装cnpm命令"></a>安装cnpm命令</h3><figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs stylus">npm install -<span class="hljs-selector-tag">g</span> cnpm <span class="hljs-attr">--registry</span>=https:<span class="hljs-comment">//registry.npmmirror.com</span><br></code></pre></td></tr></table></figure><h3 id="使用阿里定制的cnpm命令行工具代替默认的npm，输入以下代码"><a href="#使用阿里定制的cnpm命令行工具代替默认的npm，输入以下代码" class="headerlink" title="使用阿里定制的cnpm命令行工具代替默认的npm，输入以下代码"></a>使用阿里定制的cnpm命令行工具代替默认的npm，输入以下代码</h3><figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs stylus">npm install -<span class="hljs-selector-tag">g</span> cnpm <span class="hljs-attr">--registry</span>=https:<span class="hljs-comment">//registry.npmmirror.com</span><br><br></code></pre></td></tr></table></figure><h3 id="最新的配置淘宝镜像的淘宝官方提供的方法"><a href="#最新的配置淘宝镜像的淘宝官方提供的方法" class="headerlink" title="最新的配置淘宝镜像的淘宝官方提供的方法"></a>最新的配置淘宝镜像的淘宝官方提供的方法</h3><figure class="highlight arduino"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs arduino">npm config set registry https:<span class="hljs-comment">//registry.npmmirror.com</span><br></code></pre></td></tr></table></figure><h3 id="将npm的下载源恢复为默认的官方源，可以使用以下命令："><a href="#将npm的下载源恢复为默认的官方源，可以使用以下命令：" class="headerlink" title="将npm的下载源恢复为默认的官方源，可以使用以下命令："></a>将npm的下载源恢复为默认的官方源，可以使用以下命令：</h3><figure class="highlight arduino"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs arduino">npm config set registry https:<span class="hljs-comment">//registry.npmjs.org</span><br></code></pre></td></tr></table></figure><h3 id="使用以下命令来查看当前npm的下载源设置："><a href="#使用以下命令来查看当前npm的下载源设置：" class="headerlink" title="使用以下命令来查看当前npm的下载源设置："></a>使用以下命令来查看当前npm的下载源设置：</h3><figure class="highlight routeros"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs routeros">npm<span class="hljs-built_in"> config </span><span class="hljs-built_in">get</span> registry<br></code></pre></td></tr></table></figure><h3 id="指定按照源install"><a href="#指定按照源install" class="headerlink" title="指定按照源install"></a>指定按照源install</h3><figure class="highlight jboss-cli"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs jboss-cli">npm install  <span class="hljs-params">--registry=https</span>:<span class="hljs-string">//registry.npmmirror.com</span><br></code></pre></td></tr></table></figure>]]></content>
     
     
     <categories>
@@ -29,38 +29,13 @@
   
   
   <entry>
-    <title>Hello World</title>
-    <link href="/2024/07/10/hello-world/"/>
-    <url>/2024/07/10/hello-world/</url>
+    <title>hexo使用教程</title>
+    <link href="/2024/07/10/hexo%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/"/>
+    <url>/2024/07/10/hexo%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/</url>
     
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo new <span class="hljs-string">&quot;My New Post&quot;</span><br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo server<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo generate<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
-    
-    
-    
-  </entry>
-  
-  
-  
-  <entry>
-    <title>测试文章</title>
-    <link href="/2021/06/10/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/"/>
-    <url>/2021/06/10/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/</url>
-    
-    <content type="html"><![CDATA[<p>这是一篇测试文章</p><img src="/2021/06/10/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/test.png" class title="图片引用方法一">]]></content>
+    <content type="html"><![CDATA[<p>欢迎来到<a href="https://hexo.io/">Hexo</a>! </p><p>如果您在使用Hexo时遇到任何问题，可以在[故障排除]中找到答案(<a href="https://hexo.io/docs/troubleshooting.html)%E6%88%96%E8%80%85%E4%BD%A0%E5%8F%AF%E4%BB%A5%E5%9C%A8[GitHub]%E4%B8%8A%E9%97%AE%E6%88%91(https://github.com/hexojs/hexo/issues)">https://hexo.io/docs/troubleshooting.html)或者你可以在[GitHub]上问我(https://github.com/hexojs/hexo/issues)</a>.</p><h2 id="快速开始"><a href="#快速开始" class="headerlink" title="快速开始"></a>快速开始</h2><h3 id="创建一个新文章"><a href="#创建一个新文章" class="headerlink" title="创建一个新文章"></a>创建一个新文章</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo new <span class="hljs-string">&quot;文章名称&quot;</span><br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server启动服务"><a href="#Run-server启动服务" class="headerlink" title="Run server启动服务"></a>Run server启动服务</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo server<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="生成静态文件"><a href="#生成静态文件" class="headerlink" title="生成静态文件"></a>生成静态文件</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo generate<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="发布到远程"><a href="#发布到远程" class="headerlink" title="发布到远程"></a>发布到远程</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p><h3 id="生成静态文件并发布到远程"><a href="#生成静态文件并发布到远程" class="headerlink" title="生成静态文件并发布到远程"></a>生成静态文件并发布到远程</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo g -d<br></code></pre></td></tr></table></figure><h3 id="图片引用的方法"><a href="#图片引用的方法" class="headerlink" title="图片引用的方法"></a>图片引用的方法</h3><figure class="highlight django"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs django"><span class="hljs-template-tag">&#123;% <span class="hljs-name">asset_img</span> test.png 图片引用方法一 %&#125;</span><br></code></pre></td></tr></table></figure>]]></content>
     
     
-    <categories>
-      
-      <category>Java</category>
-      
-    </categories>
-    
-    
-    <tags>
-      
-      <tag>原创</tag>
-      
-    </tags>
     
   </entry>
   
